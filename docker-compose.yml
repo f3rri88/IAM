@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  iam.api:
+    image: iam.api
+    build:
+      context: ./IAM.Api
+      dockerfile: Dockerfile

@@ -1,0 +1,2 @@
+City,Country,Email,Expiration,LastName,Name,PhoneNumber,UserName,ZipCode,State,Street,NormalizedEmail,NormalizedUserName,Password
+Redmond,U.S.,demouser@microsoft.com,12/20,DemoLastName,DemoUser,1234567890,demouser@microsoft.com,98052,WA,15703 NE 61st Ct,DEMOUSER@MICROSOFT.COM,DEMOUSER@MICROSOFT.COM,Pass@word1

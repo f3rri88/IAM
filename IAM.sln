@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNetCore.Health
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.HealthChecks", "BuildingBlocks\HealthChecks\Microsoft.Extensions.HealthChecks\Microsoft.Extensions.HealthChecks.csproj", "{1D436AE2-7A0B-4ECA-88DD-6F4B74C5F60C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.HealthChecks.SqlServer", "Microsoft.Extensions.HealthChecks.SqlServer\Microsoft.Extensions.HealthChecks.SqlServer.csproj", "{E80567D1-66E7-4410-B59B-EA5FE8DCC038}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.HealthChecks.SqlServer", "BuildingBlocks\HealthChecks\Microsoft.Extensions.HealthChecks.SqlServer\Microsoft.Extensions.HealthChecks.SqlServer.csproj", "{E80567D1-66E7-4410-B59B-EA5FE8DCC038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

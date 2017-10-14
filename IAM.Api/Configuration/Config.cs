@@ -34,8 +34,8 @@
 		{
 			return new List<Client>
 			{
-                // JavaScript Client
-    //            new Client
+				// JavaScript Client
+	//            new Client
 				//{
 				//	ClientId = "js",
 				//	ClientName = "eShop SPA OpenId Client",
@@ -60,8 +60,8 @@
 				//	ClientId = "xamarin",
 				//	ClientName = "eShop Xamarin OpenId Client",
 				//	AllowedGrantTypes = GrantTypes.Hybrid,                    
-    //                //Used to retrieve the access token on the back channel.
-    //                ClientSecrets =
+	//                //Used to retrieve the access token on the back channel.
+	//                ClientSecrets =
 				//	{
 				//		new Secret("secret".Sha256())
 				//	},
@@ -80,8 +80,8 @@
 				//		"locations",
 				//		"marketing"
 				//	},
-    //                //Allow requesting refresh tokens for long lived API access
-    //                AllowOfflineAccess = true,
+	//                //Allow requesting refresh tokens for long lived API access
+	//                AllowOfflineAccess = true,
 				//	AllowAccessTokensViaBrowser = true
 				//},
 				new Client
@@ -93,7 +93,7 @@
 						new Secret("secret".Sha256())
 					},
 					ClientUri = $"{clientsUrl["Mvc"]}",                             // public uri of the client
-                    AllowedGrantTypes = GrantTypes.Hybrid,
+					AllowedGrantTypes = GrantTypes.Hybrid,
 					AllowAccessTokensViaBrowser = false,
 					RequireConsent = false,
 					AllowOfflineAccess = true,
@@ -126,7 +126,7 @@
 						new Secret("secret".Sha256())
 					},
 					ClientUri = $"{clientsUrl["Mvc"]}",                             // public uri of the client
-                    AllowedGrantTypes = GrantTypes.Hybrid,
+					AllowedGrantTypes = GrantTypes.Hybrid,
 					AllowAccessTokensViaBrowser = true,
 					RequireConsent = false,
 					AllowOfflineAccess = true,
